@@ -1,0 +1,32 @@
+
+
+UV setup 
+
+pip install UV
+uv add python-dotenv
+
+ollama - for local 
+
+git status
+git add .
+git commit -m "environment setup"
+
+
+github commands to push 
+
+cd ~/path/to/langchain-course
+git remote remove origin  # removes the old emarco177 link
+git remote add origin https://github.com/SaiSatyaJagannadh/langchain-course.git
+
+git remote -v
+
+git push --set-upstream origin project/hello-world
+
+
+#ollama install for running locally 
+
+ollama pull gemma3:270m 
+gpt-oss:20
+gpt-oss:20b
+
+ollama list   
